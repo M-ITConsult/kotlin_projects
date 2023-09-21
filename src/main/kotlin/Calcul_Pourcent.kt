@@ -3,12 +3,12 @@ const val pourcent = 100
 
 private fun calculNombre() {
   print("Entrez le prix: ")
-    val prix = readln().toDouble()
+    val price = readln().toDouble()
   print("Entrez le pourcentage: ")
     val pourcentage = readln().toDouble()
-    val resultPourcent = prix * pourcentage / pourcent
-    val resultFinal = String.format("%.2f", prix - resultPourcent)
-    print("Le prix après la reduction est de $resultFinal€")
+    val pourcentResult = price * pourcentage / pourcent
+    val finalResult = String.format("%.2f", price - pourcentResult)
+    print("Le prix après la reduction est de $finalResult€")
 }
 
 

@@ -1,10 +1,14 @@
+import java.util.*
+
+var sc = Scanner(System.`in`)
+
 var prixchocNoir = 5.50
 var prixchocLait = 4.50
 
 fun main() {
     // Entrée du prénom de la personne
     print("Bonjour, quel est votre prénom?: ")
-    val name = readln()
+    val name = sc.next()
     println("Bienvenue dans notre Boutique de Chocolats $name," +
             " voici les deux sortes de Chocolat que nous proposons > ")
 
@@ -14,9 +18,9 @@ fun main() {
 
     // Demander combien de tablettes
     print("Voulez-vous du Chocolat Noir? Si Oui, tapez le nombre de tablettes, Si Non mettez 0: ")
-    val nbtabNoir = readln().toInt()
+    val nbtabNoir = sc.nextInt()
     print("Voulez-vous du Chocolat au Lait? Si oui, tapez le nombre de tablettes, Si Non mettez 0: ")
-    val nbtabLait = readln().toInt()
+    val nbtabLait = sc.nextInt()
     //Calculer le prix total que le client devra payer
     var totalPrix = nbtabNoir * prixchocNoir + nbtabLait * prixchocLait
 
