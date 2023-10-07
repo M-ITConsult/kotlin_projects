@@ -10,6 +10,7 @@
       <sourceFolder url="file://$MODULE_DIR$/GameInKotlin" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GameBook" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Atomic_Book" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BMI_Calculator" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
