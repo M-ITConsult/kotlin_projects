@@ -8,6 +8,8 @@
       <sourceFolder url="file://$MODULE_DIR$/src/test/kotlin" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/GameInKotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GameBook" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Atomic_Book" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
