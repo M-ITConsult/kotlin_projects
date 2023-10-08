@@ -2,8 +2,8 @@ fun main() {
     print("Veuillez entrez votre poids: ")
     val poids = readln().toDouble()
     print("Veuillez entrez votre taille en mètre: ")
-    val kilo = readln().toDouble()
-    val result = calculateBMI(poids,kilo)
+    val taille = readln().toDouble()
+    val result = calculateBMI(poids,taille)
     println(result)
 }
 
