@@ -1,7 +1,8 @@
 import java.util.*
+import kotlin.system.exitProcess
 
-object calculPrixPoids {
-    const val kilo = 1000
+object CalculPrixPoids {
+    private const val KILO = 1000
 
     // Pour connaître le prix au kg de l'article
    private fun prixAuKg() {
@@ -10,7 +11,7 @@ object calculPrixPoids {
         val price = sc.nextDouble()
         print("Entrez le poids de votre article: ")
         val poids = sc.nextDouble()
-        val result = price * kilo / poids
+        val result = price * KILO / poids
         System.out.printf("Voici le prix au kilo de votre article: %.2f€%n", result)
     }
 
@@ -21,7 +22,7 @@ object calculPrixPoids {
         val priceKg = sc.nextDouble()
         print("Entrez le poids de votre article: ")
         val poids = sc.nextDouble()
-        val result = priceKg / kilo * poids
+        val result = priceKg / KILO * poids
         System.out.printf("Voici le prix au kilo de votre article: %.2f€%n", result)
     }
 
@@ -34,7 +35,7 @@ object calculPrixPoids {
             when (choice) {
                 1 -> prixAuKg()
                 2 -> prixPiece()
-                3 -> System.exit(0)
+                3 -> exitProcess(0)
             }
         }
     }
