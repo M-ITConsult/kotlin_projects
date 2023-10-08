@@ -45,7 +45,7 @@ import menu
            }
        }
    }
-    // Fonction pour afficher un texte plus lentement, voir const delay pour la vitesse d'affichage
+    // Fonction pour afficher un texte plus lentement, voir const delay pour la vitesse d'affichage//
     internal fun slowPrint(text: String, delay: Long) {
     for (char in text) {
         print(char)
