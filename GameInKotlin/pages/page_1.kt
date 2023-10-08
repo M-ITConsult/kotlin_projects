@@ -30,18 +30,18 @@ import menu
         
     """.trimIndent()
            slowPrint(message, delay)
-       }
 
-       // Choix du joueur
-       while (true) {
-           print("Veuillez entrez votre choix: ")
-           val choice = readln().toInt()
-           when (choice) {
-               4 -> page4()
-               5 -> page5()
-               6 -> page6()
-               1 -> menu()
-               else -> println("Choix incorrect")
+           // Choix du joueur
+           while (true) {
+               print("Veuillez entrez votre choix: ")
+               val choice = readln().toInt()
+               when (choice) {
+                   4 -> page4()
+                   5 -> page5()
+                   6 -> page6()
+                   1 -> menu()
+                   else -> println("Choix incorrect")
+               }
            }
        }
    }
